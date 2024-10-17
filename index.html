@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=.5" />
+    <meta
+      name="description"
+      content="Deloitee Test Javascript"
+    />
+   <title>Deloitee Test By Mahesh Pagare</title>
+   <script src="./index.js"></script>
+   
+   <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="header">
+        <a href="#default" class="logo">/ENIA</a>
+        <div class="header-center">
+          <a class="active" href="#home">Home</a>
+          <a href="#women">Women</a>
+          <a href="#men">Men</a>
+          <a href="#smartgear">Smart Gear</a>
+          <a href="#accessories">Accessories</a>
+        </div>
+      </div>
+      <div class="image-container">
+        <div class="image-inner">
+          <h2>Men's Outerwear</h2>
+        </div>
+      </div> 
+      <div class="controls">
+          <label>Search: </label><input type="text" id="filter" placeholder="Search products..." style="height: 30px;">
+          
+      </div>
+      <div class="main-container">
+        <div class="filters-list">
+          <h3>Filters</h3><hr>
+          <h4>Categories</h4>
+          <input type="checkbox" class="category" id="option1" name="category" value="jewelery">
+          <label for="option1">Jewelery</label><br>
+          
+          <input type="checkbox" class="category" id="option1" name="category" value="electronics">
+          <label for="option1">Electronics</label><br>
+     
+          <input type="checkbox" class="category" id="option1" name="category" value="men's clothing">
+          <label for="option1">Men's clothing</label><br>
+        
+          <input type="checkbox" class="category" id="option1" name="category" value="women's clothing">
+          <label for="option1">Women's clothing</label><br>
+          <hr>
+        </div>
+        <div class="product-list-container">
+          <div class="loader" id="loader" style="display:none;"></div>
+          <div class="sorting-pagecount">
+            <div style="text-align: right;">
+              <div style="float: left;" id="count"></div>
+              <select id="sort" style="height: 30px;margin-bottom: 10px;cursor: pointer;">
+                <option value="title">Sort by Product Name</option>
+                <option value="price">Sort by Price</option>
+              </select>
+            </div>
+          </div>
+          
+          <div id="product-list" class="product-list">
+
+          </div>
+        </div>
+        
+      </div>  
+      
+      <div id="load-more"><button>Load More...</button></div>
+     <hr>
+      <footer>
+        <div class="footer-column">
+            <h4>Acoount</h4>
+          
+              <ul>
+                <li>Sign In</li>
+                <li>Register</li>
+                <li>Order Status</li>
+              </ul>
+           
+        </div>
+        <div class="footer-column">
+            <h4>About Us</h4>
+           
+              <ul>
+                <li>Our Story</li>
+                <li>Carriers</li>
+            </ul>
+            
+        </div>
+        <div class="footer-column">
+            <h4>Help</h4>
+            
+              <ul>
+                <li>Contact Us</li>
+                <li>Order Status</li>
+                <li>Returns</li>
+              </ul>
+           
+        </div>
+        <div class="footer-column">
+            <h4>Follow us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+     </footer>
+  </div>
+  
+
+  
+  </body>
+</html>
